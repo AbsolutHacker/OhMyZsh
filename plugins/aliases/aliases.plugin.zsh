@@ -2,7 +2,7 @@
 #
 # - acs: alias cheatsheet
 #   group alias by command, pass addition argv to grep.
-function acs(){
+function ali(){
   (( $+commands[python] )) || {
     echo "[error] No python executable detected"
     return
